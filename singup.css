@@ -1,0 +1,46 @@
+section	{
+	background-color: white;
+	width: 450px;
+	padding: 50px 50px;
+	border: 4px solid black;
+	margin: 30px auto;
+	}
+h1 {
+	font-family:Arial;
+	font-size: 30px;
+	text-align: center;
+	margin: 30px auto;
+}
+#username, #pw, #nama, #tl, #tgl,#e-mail,#nohp,#alamat { 
+	width: 100%;
+    margin-top: 3px;
+    height: 20px;
+    border: 3;
+	border-bottom: 2px solid blue;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: solid;
+  }
+label {
+	font-size: 14px;
+	font-family: Arial;
+	color: blue;
+}
+	
+ #tom { 
+	margin-top: 50px;
+    width: 45%;
+    height: 40px;
+    background: gray;
+    border: 2px;
+    color: blue;
+    font-family: product sans;
+    font-size: 20px;
+    
+	}
+
+	body {
+		background-image:url("https://img.freepik.com/free-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?size=626&ext=jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	   }

@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="singup.css" />
+<title>SIgn UP</title>
+<body>
+	<header>
+		<h1>Form Registrasi</h1>
+	</header>
+	<section>
+		<form action="login.html" method="GET">
+		<form id="login" action="" method="post">
+		<label for="username">Username</label>
+		<input id="username" name="username" type="text" required> <br>
+		<label for="pw">Password</label>
+		<input id="pw" name="pw" type="password" required><br>
+		<label for ="nama">Nama anda</label>
+		<input id="nama" name="nama" type="text" required> <br>
+		<label for="tl">Tempat Lahir</label>
+		<input id="tl" name="tl" type="text" required> <br>
+		<label for="tgl">Tanggal Lahir</label>
+		<input id="tgl" name="tgl" type="date" required> <br>
+		<label for="JK">Jenis Kelamin</label>
+		<input id="pria" name="JK" type="radio" value="Pria">
+		<label for="Pria">Pria</label>
+		<input id="wanita" name="JK" type="radio" value="wanita">
+		<label for="wanita">Wanita</label>	<br>
+		<label for="e-mail">Alamat E-mail</label>
+		<input id="e-mail" name="e-mail" type="email" required> <br>
+		<label for="nohp">No Handphone</label>
+		<input id="nohp" name="nohp" type="tel" pattern="^\d{12}$"required><br>
+		<label for="alamat">Alamat</label>
+		<input id="alamat" name="alamat" type="text"><br>
+		<input id="tom" type="submit" value="submit" >
+		<input id="tom" type="reset" value="reset">
+		</form>
+	</section>
+</body>
+</head>
+</html>
